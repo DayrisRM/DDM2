@@ -14,8 +14,8 @@
     "datasets": {
         "train": {
             "name": "hardi",
-            "dataroot": null, // **UPDATE THIS TO THE PATH OF THE FILE** e.g. ".../data/HARDI150.nii.gz"
-            "valid_mask": [10,160],
+            "dataroot": "/home/drapado/DDM2/data_0p9mm_b0b1.nii.gz", // **UPDATE THIS TO THE PATH OF THE FILE** e.g. ".../data/HARDI150.nii.gz"
+            "valid_mask": [15,107],
             "phase": "train",
             "padding": 3,
             "val_volume_idx": 40, // the volume to visualize for validation
@@ -27,8 +27,8 @@
         },
         "val": {
             "name": "hardi",
-            "dataroot": null,  // **UPDATE THIS TO THE PATH OF THE FILE** e.g. ".../data/HARDI150.nii.gz"
-            "valid_mask": [10,160],
+            "dataroot": "/home/drapado/DDM2/data_0p9mm_b0b1.nii.gz",  // **UPDATE THIS TO THE PATH OF THE FILE** e.g. ".../data/HARDI150.nii.gz"
+            "valid_mask": [15,107],
             "phase": "val",
             "padding": 3,
             "val_volume_idx": 40, // the volume to visualize for validation
@@ -132,5 +132,5 @@
             "lr": 1e-4
         }
     },
-    "stage2_file": null // **UPDATE THIS TO THE PATH OF PHASE2 MATCHED FILE** 
+    "stage2_file": "/initial_stage_file.txt" // **UPDATE THIS TO THE PATH OF PHASE2 MATCHED FILE** 
 }
